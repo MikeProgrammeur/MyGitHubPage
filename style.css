@@ -1,0 +1,90 @@
+body{
+    margin: 0 auto;
+    background-image: url('./src/BackgroundSand.jpg');
+}
+.HiddenLink{ 
+    color: inherit;
+    text-decoration: inherit;
+} 
+
+section.Menu{
+    margin-top: 0;
+    background-color: #CCAE7C;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    position: fixed;
+    height: 100px;
+}
+nav.navigation{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    /*max-width: 70%;
+    min-width: 50%;*/
+    background-color: #BCA073;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+li{
+    border-radius: 8px;
+    background-color: #BCA073;
+    padding: 10px 15px;
+}
+li:hover{
+    background-color: #CCAE7C;
+}
+img.BigLogo{
+    max-width: 30%;
+}
+
+.SpaceSection{
+    height: 160px;
+}
+section.AboutMe{
+    display: flex;
+    align-items: center;
+}
+
+
+  
+.Aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.PresentationText{
+    margin: 25px;
+}
+.PhotoMike{
+    max-width: 30%;
+    margin: 25px;
+}
+
+.sectionResume{
+    padding: 25px;
+    padding-top: 150px;
+}
+.pdf{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionMedia{
+    padding: 25px;
+    padding-top: 150px;
+}
+.LinkList{
+    
+    padding:50px
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}

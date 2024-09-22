@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <section class="Menu">
+        <img src="src/Logo.png" alt="My logo and my name" class="BigLogo">
+        <nav class="navigation">
+            <li><i class="fa-solid fa-newspaper"></i> News </li>
+            <li><a href="#sectionResume" class="HiddenLink"><i class="fa-regular fa-file"></i> My resume</a></li>
+            <li> <i class="fa-solid fa-briefcase"></i> My portfolio</li>
+            <li><a href="#sectionMedia" class="HiddenLink"><i class="fa-solid fa-address-card"></i> My medias and contact</a></li>
+            <div class="SlidingSelector"></div>
+        </nav>
+    </section>
+    <section class="SpaceSection">
+    </section>
+    <section class="Aboutme">
+        <div class="PresentationText">
+            <h1>Hello, I am Mike Huttenschmitt</h1>
+            <p>I am currently doing a joint degree at Télécom SudParis 
+                and Ecole Normale Supérieure de Paris-Saclay, 
+                I study Statistical learning and signal processing. 
+                Welcome to my website, here I will display my work and my news.
+                This website also serves as a hub to all my social medias.
+                My goal is to work on signal processing and its applications in engineering fields.
+            </p>
+        </div>
+        <img src="/src/pictureOfMe.jpg" alt="A picture of Mike" class="PhotoMike">
+    </section >
+    <section id="sectionResume" class="sectionResume">
+        <h1>My resume</h1>
+        <div class="pdf">
+            <embed src="./src/MyResume.pdf" width="800px" height="400px" />
+        </div>
+    </section>
+
+
+    <section id="sectionMedia" class="sectionMedia">
+        <h1>My medias</h1>
+        <div class="LinkList">
+            <p><a href="https://www.linkedin.com/in/mikehuttenschmitt/" class="HiddenLink"><i class="fa-brands fa-linkedin"></i> My linkedin</a></p>
+            <p><a href="https://github.com/MikeProgrammeur" class="HiddenLink"><i class="fa-brands fa-square-github"></i> My GitHub</a></p>
+        </div>  
+    </section>
+    <footer>
+        <p> 22 sep 2024 </p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="HiddenLink">Mike Huttenschmitt</a>
+    </footer>
+</body>
+</html>
